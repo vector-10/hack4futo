@@ -31,6 +31,10 @@ body {
   font-style: normal;
 }
 
+.logo{
+  width: 8rem;
+}
+
 /* line 25, ../../Arafath/CL/December/236. Event-02/HTML/scss/theme-default.scss */
 .img {
   max-width: 100%;
