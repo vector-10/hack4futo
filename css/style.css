@@ -35,6 +35,9 @@ body {
   width: 8rem;
   height: 2rem;
 }
+/* .unveil{
+   color: #ED1202;
+} */
 
 /* line 25, ../../Arafath/CL/December/236. Event-02/HTML/scss/theme-default.scss */
 .img {
@@ -1177,7 +1180,7 @@ h3 {
 .header-area .main-header-area .main-menu ul li {
   display: inline-block;
   position: relative;
-  margin: 0 17px;
+  margin: 0 10px;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
