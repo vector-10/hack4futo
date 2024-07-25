@@ -252,66 +252,39 @@
 
     <!-- map_area_start  -->
     <div class="map_area">
-        <div id="map" style="height: 600px; position: relative; overflow: hidden;">
-        
-        </div>
-        <script>
-            function initMap() {
-                var uluru = {
-                    lat: -25.363,
-                    lng: 131.044
-                };
-                var grayStyles = [{
-                        featureType: "all",
-                        stylers: [{
-                                saturation: -90
-                            },
-                            {
-                                lightness: 50
-                            }
-                        ]
-                    },
-                    {
-                        elementType: 'labels.text.fill',
-                        stylers: [{
-                            color: '#ccdee9'
-                        }]
-                    }
-                ];
-                var map = new google.maps.Map(document.getElementById('map'), {
-                    center: {
-                        lat: -31.197,
-                        lng: 150.744
-                    },
-                    zoom: 9,
-                    styles: grayStyles,
-                    scrollwheel: false
-                });
-            }
-        </script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpfS1oRGreGSBU5HHjMmQ3o5NLw7VdJ6I&amp;callback=initMap">
-        </script>
+       
+        <div class="position-relative h-100">
+            <iframe
+              class="position-relative w-100 h-100"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.7822259499275!2d7.0203998!3d4.8834574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1069d3cb5ca268a5%3A0x8223408ee7560081!2sStarHills+School!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd"
+              frameborder="0"
+              style="min-height: 450px; border: 0"
+              allowfullscreen=""
+              aria-hidden="false"
+              tabindex="0"
+            ></iframe>
+          </div>  
+
         <div class="location_information black_bg wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
-            <h3>Concert 2020</h3>
+            <h3>HackFuto 2024</h3>
             <div class="info_wrap">
                 <div class="single_info">
-                    <span>Vanue:</span>
-                    <p>26/A, Coontum Avenu
-                        New York-2783</p>
+                    <span>Venue:</span>
+                    <p>Hall of Excellence, Federal University of Technology Owerri.</p>
                 </div>
                 <div class="single_info">
                     <span>Phone:</span>
-                    <p>+10 (88) 267 368 283</p>
+                    <p>+234 813 230 0038  +234 811 855 2122</p>
                 </div>
                 <div class="single_info">
                     <span>Email:</span>
-                    <p>contact@concert20.com</p>
+                    <p>hack4futo@gmail.com</p>
                 </div>
             </div>
         </div>
     </div>
     <!-- map_area_end  -->
-
+     
     <!-- brand_area_start  -->
     <div class="brand_area black_bg">
         <div class="container">
