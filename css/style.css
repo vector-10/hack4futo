@@ -1486,12 +1486,20 @@ h3 {
 
 /* line 1, ../../Arafath/CL/December/236. Event-02/HTML/scss/_slider.scss */
 .slider_bg_1 {
-  background-image: url(../img/banner/banner.png);
+  background-image: url(/img/hero.jpg);
+}
+
+
+/* Switch to even smaller background image for mobile phones */
+@media (max-width: 480px) {
+  .slider_bg_1 {
+    background-image: url(/img/hero\ mobile.jpg);
+  }
 }
 
 /* line 4, ../../Arafath/CL/December/236. Event-02/HTML/scss/_slider.scss */
 .slider_bg_2 {
-  background-image: url(../img/banner/banner2.png);
+  background-image: url(/img/hero.jpg);
 }
 
 /* line 7, ../../Arafath/CL/December/236. Event-02/HTML/scss/_slider.scss */
