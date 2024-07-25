@@ -1934,6 +1934,16 @@ h3 {
   border: none;
 }
 
+.row {
+  padding-top: 0px; /* adjust the value as needed */
+  padding-bottom: 100px; /* adjust the value as needed */
+}
+
+.form-contact {
+  margin: 0 auto;
+  max-width: 600px; /* adjust the width as needed */
+}
+
 /* line 1, ../../Arafath/CL/December/236. Event-02/HTML/scss/_about.scss */
 .about_area {
   padding-bottom: 150px;
